@@ -1,0 +1,89 @@
+body {
+  font: normal normal normal 1rem/1.6 -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #404040;
+  background: white;
+  font-size: 1rem;
+  margin: 1%; }
+p{
+  text-align: center;
+}
+main {
+  display: block; }
+
+h1 {
+  font-size: 2em;
+  text-align: center; }
+
+button,
+input{
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin-right: 1%;
+  margin-left: 40px;;
+}
+ul li {
+  padding: 20px;
+  background: #a5fce2;
+  margin-bottom: 8px;
+}
+li{
+  list-style: none; 
+}
+
+h1 {
+  margin: 1.5rem 0;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  color: #404040; }
+
+h1 {
+  font-size: 2.25rem; }
+
+/* Buttons */
+.button, a.button, button, [type=submit], [type=reset], [type=button] {
+  display: inline-block;
+  border: 1px solid #52d1aa;
+  border-radius: 4px;
+  background: #52d1aa;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  padding: .75rem 1.25rem;
+  margin: 0 0 .5rem 0;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1; }
+
+.button:hover, button:hover {
+  border: 1px solid #41a687;
+  background: #41a687;
+  color: #ffffff;
+  text-decoration: none; }
+
+.button:focus, button:focus, button:active, .button:active{
+  border: 1px solid #41a687;
+  background: #41a687;
+  color: #ffffff;
+  text-decoration: none; }
+
+.button::-moz-focus-inner, button::-moz-focus-inner{
+  border: 0;
+  padding: 0; }
+
+.accent-button:hover, .accent-button:focus, .accent-button:active,
+a.accent-button:hover,
+a.accent-button:focus,
+a.accent-button:active {
+  color: #ffffff;
+  border: 1px solid #1cb864;
+  background: #1cb864; }
+
+input{
+  width: calc(100% - 40%);
+}
+
